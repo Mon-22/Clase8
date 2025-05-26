@@ -9,3 +9,15 @@ Requisitos:
 • Utiliza prompt() para recibir el nombre del usuario. 
 • Muestra un mensaje utilizando concatenación de cadenas.
 */
+const prompt = require('prompt-sync')();
+
+// solicitar los numeros y almacenarlos en las variables
+
+let nombre = (prompt(' cual es tu nombre: '));
+
+// imprime nombre
+
+console.log ( ' Bienvenido '+ nombre + ' espero estes teniendo una maravillosa estancia')
+
+
+

@@ -16,7 +16,7 @@ const prompt = require('prompt-sync')();
 
 // pedir el numero
 
-let num = prompt(' ingresa un numero:  '));
+let num = prompt(' ingresa un numero:  ');
 
 let resultado = (num * 2);
 

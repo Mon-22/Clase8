@@ -23,5 +23,7 @@ let numDos = parseFloat(prompt(' ingresa el segundo numero numero:  '));
 
 let Suma = (numUno + numDos)
 
+// Imprima el resultado
+
 console.log (' la suma es:'+ Suma );
 

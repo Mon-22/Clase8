@@ -11,3 +11,20 @@ Requisitos:
 por 2. 
 • Usa una estructura if-else para mostrar el mensaje adecuado.
 */
+
+const prompt = require('prompt-sync')();
+
+// pedir el numero
+
+let num = parseFloat(prompt(' ingresa un numero:  '));
+let numNuevo = (num%2);
+
+// verificando si el numero es , negativo, positivo o cero
+
+if (numNuevo ! 0) {
+    console.log (' El numero impar: ' + numNuevo );
+
+
+}else {
+        console.log ( 'El numero es par: ' + numNuevo );
+}  
